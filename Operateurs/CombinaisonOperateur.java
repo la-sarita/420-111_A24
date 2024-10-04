@@ -16,6 +16,7 @@ public class CombinaisonOperateur
         char d = 'd';
         String s = "Bonjour";
         
-        System.out.println(('A' + 0));
+        //System.out.println(('A' + 0));
+        
     }
 }

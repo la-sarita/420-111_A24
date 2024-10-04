@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CreationMethodes
+comment0.text=\r\n\ D\u00E9crivez\ votre\ classe\ CreationMethodes\ ici.\r\n\r\n\ @author\ (votre\ nom)\r\n\ @version\ (un\ num\u00E9ro\ de\ version\ ou\ une\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ afficherMessage()
+comment3.params=a\ b
+comment3.target=int\ addition(int,\ int)
+comment4.params=a\ b
+comment4.target=int\ soustraction(int,\ int)
+comment5.params=a\ b\ c
+comment5.target=int\ addition(int,\ int,\ int)
+comment6.params=a\ b
+comment6.target=double\ addition(double,\ double)
+numComments=7

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=ClaculVentes
+comment0.text=\r\n\ D\u00E9crivez\ votre\ classe\ ClaculVentes\ ici.\r\n\r\n\ @author\ (votre\ nom)\r\n\ @version\ (un\ num\u00E9ro\ de\ version\ ou\ une\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ afficherDescriptionProgramme()
+comment3.params=
+comment3.target=java.lang.String\ saisirNomProduit()
+comment4.params=
+comment4.target=double\ saisirPrixUnitaireProduit()
+comment5.params=
+comment5.target=int\ saisirNombreProduitsVendus()
+comment6.params=prixUnitaire\ quantite
+comment6.target=double\ calculerTotal(double,\ int)
+comment7.params=nom\ prixUnitaire\ quantite\ total
+comment7.target=void\ afficherInfosProduits(java.lang.String,\ double,\ int,\ double)
+numComments=8
