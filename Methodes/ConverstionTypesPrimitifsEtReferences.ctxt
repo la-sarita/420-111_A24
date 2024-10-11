@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=ConverstionTypesPrimitifsEtReferences
+comment0.text=\r\n\ D\u00E9crivez\ votre\ classe\ ConverstionTypesPrimitifsEtReferences\ ici.\r\n\r\n\ @author\ (votre\ nom)\r\n\ @version\ (un\ num\u00E9ro\ de\ version\ ou\ une\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ convertionEntreTypesPrimitifs()
+comment3.params=
+comment3.target=void\ convertStringVersNumeriquesReferences()
+comment4.params=
+comment4.target=void\ convertNumeriquesVersStringAvecValueOf()
+comment5.params=
+comment5.target=void\ convertNumeriquesVersStringAvecToString()
+comment6.params=
+comment6.target=void\ convertStringVersNumeriquesPrimitifs()
+comment7.params=
+comment7.target=void\ convertNumeriquesPrimitifsVersStringAvecToString()
+comment8.params=
+comment8.target=void\ convertNumeriquesPrimitifsVersStringAvecValueOf()
+numComments=9
