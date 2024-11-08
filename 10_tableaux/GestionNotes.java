@@ -63,14 +63,15 @@ public class GestionNotes
     }
     
     public static void afficherNotes(double[] notes){
+        System.out.print('[');
         for(double note: notes){
             System.out.print(note + ", ");
         }
-        System.out.println();
+        System.out.println(']');
     }
     
     public static double[] trierTableauDecroissant(double[] tab){
-        for(int j = 0; j < tab.length; j++){
+        for(int j = 1; j < tab.length; j++){
             for(int i = 0; i < tab.length -1; i++){
                 if(tab[i + 1] > tab[i]){
                     double temp = tab[i];
