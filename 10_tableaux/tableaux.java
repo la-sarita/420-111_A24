@@ -1,3 +1,5 @@
+import java.util.Scanner;
+import java.util.Arrays;
 
 /**
  * Décrivez votre classe tableaux ici.
@@ -6,6 +8,8 @@
  * @version (un numéro de version ou une date)
  */
 public class tableaux{
+    public static Scanner sc = new Scanner(System.in);
+    
     public static void main(String[] args){
         System.out.println("#############   Tableau   ###############");
         System.out.println("## DECLARATION ##");
@@ -91,5 +95,29 @@ public class tableaux{
             System.out.println();
         }
 
+        double[] notes = {60, 55.5, 73.8};
+        GestionNotes.afficherNotes(notes);
+        System.out.println("Veuillez entrer une note : ");
+        double note = sc.nextDouble();
+        notes = GestionNotes.redimentionner(notes, note);
+        GestionNotes.afficherNotes(notes);
+        double[] notesTriees = GestionNotes.trierTableauCroissant(notes);
+        System.out.println("Tableau trié croissant");
+        GestionNotes.afficherNotes(notesTriees);
+        System.out.println("Tableau trié décroissant");
+        double[] notesTrieesDecroissant = GestionNotes.trierTableauDecroissant(notes);
+        GestionNotes.afficherNotes(notesTrieesDecroissant);
+        // Affiche l'adresse en mémoire du tableau notes
+        System.out.println(notes);
+        System.out.println(Arrays.toString(notes));
+        
+        double[] copieNotes = Arrays.copyOf(notes, notes.length);
+        double[] autreCopie = copieNotes;
+        System.out.println(Arrays.toString(copieNotes));
+        Arrays.sort(copieNotes);
+        System.out.println(Arrays.toString(copieNotes));
+        System.out.println(Arrays.toString(autreCopie));
+        System.out.println(Arrays.toString(notes));
     }
+    
 }
