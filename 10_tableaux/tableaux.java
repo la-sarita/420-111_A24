@@ -120,4 +120,29 @@ public class tableaux{
         System.out.println(Arrays.toString(notes));
     }
     
+    public static void revision(){
+        String[] villes = {"Montreal", "New York", "Paris"};
+        double[] revenus = {1400065, 1455566, 200514};
+        
+        // trouver la position du max de revenus 
+        int posMaxRevenu = trouverPosMaxRevenu(revenus);
+        System.out.println("La ville qui a le plus grand revenu est : "
+                    + villes[posMaxRevenu]);
+        int posNomVille = trouverVilleCommenceParNom(villes, "New");
+        System.out.println(posNomVille != -1 ? villes[posNomVille] : "Aucune ville");
+    }
+    
+    public static int trouverPosMaxRevenu(double[] revenus){
+        // TODO : implémenter la comparaison des éléments à l'aide de la boucle for
+        return 1;
+    }
+    
+    public static int trouverVilleCommenceParNom(String[] villes, String nom){
+        for(int i = 0; i < villes.length; i++){
+            if(villes[i].startsWith(nom)){
+                return i;
+            }
+        }
+        return -1;
+    }
 }
